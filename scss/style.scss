@@ -1,0 +1,18 @@
+//fonst 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+// base
+@import './base/base';
+
+//blocks
+@import './blocks/header';
+@import './blocks/header-menu';
+@import './blocks/header-content';
+@import './blocks/meals';
+@import './blocks/card-description';
+@import './blocks/tag';
+@import './blocks/footer';
+@import './blocks/footer-top';
+@import './blocks/footer-bottom';

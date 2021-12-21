@@ -1,0 +1,70 @@
+.meals {
+
+    // .meals__container
+
+    &__container {
+        padding: 0 110px;
+    }
+
+    // .meals__title
+
+    &__title {
+        margin-bottom: 43px;
+        font-weight: 800;
+        font-size: 42px;
+    }
+
+    // .meals__card-wrapper
+    &__card-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .meals__card
+    &__card .meals__card-img {
+        transition: 0.5s ease;
+    }
+
+    &__card {
+        margin-bottom: 145px;
+
+        &:hover .meals__card-img {
+            opacity: 0.7;
+        }
+
+    }
+
+    // .meals__card-img
+
+    &__card-img {
+        position: relative;
+    }
+
+    &__card-img img {
+        width: 380px;
+        height: 305px;
+        margin-bottom: 17px;
+    }
+
+    // .meals__card-text
+
+    &__card-text {
+        width: 360px;
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    // .meals__card-description
+
+    &__card-description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 360px;
+        color: #999;
+
+    }
+}
+
+

@@ -1,0 +1,22 @@
+.tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    // .tag__new
+
+    &__new {
+        padding: 8px 30px;
+        font-size: 12px;
+        background: #F9CA25;
+        border-radius: 20px;
+        transition: 0.3s ease-in;
+
+        &:hover {
+            background: #ffdd60;
+        }
+    }
+}

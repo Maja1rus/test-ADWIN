@@ -1,0 +1,24 @@
+.footer {
+    padding-top: 140px;
+    background: #F5F5F5;
+
+    &__top,
+    &__bottom {
+        display: flex;
+        padding: 0 160px 0 60px;
+    }
+
+    &__top {
+        margin-bottom: 80px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 60px;
+        padding: 70px 0 83px 0;
+        border-top: 1px solid #999;
+    }
+}
+

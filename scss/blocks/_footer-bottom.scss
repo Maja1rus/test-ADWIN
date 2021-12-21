@@ -1,0 +1,37 @@
+.footer {
+
+    // .footer__bottom
+
+    &__bottom {display: flex;}
+
+    // .footer__bottom-social
+
+    &__bottom-social {
+        .footer-menu__title {
+            margin-bottom: 15px;
+        }
+
+    }
+
+    // .footer__bottom-text
+    &__bottom-text {
+        display: flex;
+        font-size: 52px;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+
+    &__bottom-text+&__bottom-text{
+        margin-left: 83px;
+    }
+}
+
+.social {
+    
+    // .social__icon
+    
+    &__icon+&__icon {
+         margin-left: 50px;
+    }
+}

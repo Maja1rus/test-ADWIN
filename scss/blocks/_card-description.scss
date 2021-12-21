@@ -1,0 +1,16 @@
+.card-description {
+    &__text {
+        font-size: 14px;
+    }
+
+    // .card-description__svg
+
+    &__svg {
+        display: flex;
+        align-items: center;
+    }
+
+    &__svg p {
+        margin-left: 10px;
+    }
+}
